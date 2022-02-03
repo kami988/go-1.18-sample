@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+  dev-go-beta:
+    build: ./
+    environment:
+      GOPRIVATE: github.com/acall-inc/*
+      GITHUB_USER_NAME: ${GITHUB_USER_NAME}
+      GITHUB_TOKEN: ${GITHUB_TOKEN}
+      GITHUB_EMAIL: ${GITHUB_EMAIL}
+    volumes:
+      - "acall.learning.go-beta:/repo"
+      - "acall.learning.go.1.18beta2:/go"
+    tty: true
+
+volumes:
+  acall.learning.go-beta:
+  acall.learning.go.1.18beta2:
