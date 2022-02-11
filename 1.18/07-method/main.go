@@ -44,7 +44,7 @@ func main() {
 	stringList.add(List[string]{Value: "c"})
 	stringList.printFull()
 
-	fn := func() { fmt.Println() }
+	fn := func() { fmt.Print() }
 	fn()
 }
 

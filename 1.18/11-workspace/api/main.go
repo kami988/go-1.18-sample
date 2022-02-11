@@ -7,13 +7,12 @@ import (
 )
 
 func main() {
-	a := def.GetReservedSpotUUIDByEventUUIDRequest{EventUUID: "id1"}
+	a := def.Request{EventUUID: "id1"}
 	fmt.Println(a.GetEventUUID())
 }
 
-// ファイル go.work を消してみよう
 // go work init を実行してみよう
-// go work -r . を実行してみよう
+// go work use -r . を実行してみよう
 
 // spotSharedQueryService.proto を好きに変更してみよう
 // make generate でpb.goファイルを更新しよう

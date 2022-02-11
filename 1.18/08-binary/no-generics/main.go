@@ -15,6 +15,6 @@ func main() {
 
 // 下のコマンドを実行してみよう
 // go build -o ./1.18/08-binary/no-generics-bin ./1.18/08-binary/no-generics/main.go
-// ls -l ls ./1.18/08-binary/ | grep bin
+// ls -l ./1.18/08-binary/ | grep bin
 
 // アセンブリを見たい方: objdump -d ./1.18/08-binary/no-generics-bin >> ./1.18/08-binary/no-generics/bin.txt
