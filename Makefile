@@ -11,8 +11,7 @@ go-setup:
 	go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@v1.1 &
 	go install github.com/haya14busa/goplay/cmd/goplay@latest &
 	go install honnef.co/go/tools/cmd/staticcheck@latest &
-	go install golang.org/x/tools/cmd/goimports@latest &
-	go install github.com/go-delve/delve/cmd/dlv@latest
+	go install golang.org/x/tools/cmd/goimports@latest
 
 PROTOC_ZIP := protoc-3.15.8-linux-x86_64.zip
 install-grpc:
