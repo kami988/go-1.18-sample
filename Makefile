@@ -8,7 +8,10 @@ go-setup:
 	go install github.com/golangci/golangci-lint/cmd/golangci-lint@latest &
 	go install golang.org/x/tools/gopls@latest &
 	go install google.golang.org/protobuf/cmd/protoc-gen-go@v1.26 &
-	go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@v1.1
+	go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@v1.1 &
+	go install github.com/haya14busa/goplay/cmd/goplay@latest &
+	go install honnef.co/go/tools/cmd/staticcheck@latest &
+	go install golang.org/x/tools/cmd/goimports@latest
 
 PROTOC_ZIP := protoc-3.15.8-linux-x86_64.zip
 install-grpc:
