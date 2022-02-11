@@ -54,4 +54,4 @@ func BenchmarkWithInterface(b *testing.B) {
 }
 
 // 下のコマンドを実行してみよう
-// go test ./1.18/09-bench -bench . -count
+// go test ./1.18/09-bench -bench .
