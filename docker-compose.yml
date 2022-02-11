@@ -9,12 +9,11 @@ services:
       GITHUB_TOKEN: ${GITHUB_TOKEN}
       GITHUB_EMAIL: ${GITHUB_EMAIL}
     volumes:
-      - "kami988.learning.go-beta:/repo"
+      - "./:/repo"
       - "kami988.learning.go.1.18beta2:/go"
     ports:
       - "8080:8080"
     tty: true
 
 volumes:
-  kami988.learning.go-beta:
   kami988.learning.go.1.18beta2:
