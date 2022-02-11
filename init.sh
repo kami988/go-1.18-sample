@@ -6,7 +6,7 @@ git config --global user.email ${GITHUB_EMAIL}
 git config --global url."https://${GITHUB_USER_NAME}:${GITHUB_TOKEN}@github.com/".insteadOf "https://github.com/"
 
 if [ ! -d /repo/.git ]; then
-  git clone https://github.com/mattn/go-generics-example.git repo
+  git clone https://github.com/kami988/go-1.18-sample.git repo
 fi
 
 cd /repo/

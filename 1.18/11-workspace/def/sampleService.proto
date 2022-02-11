@@ -1,0 +1,14 @@
+syntax = "proto3";
+package def;
+option go_package = "github.com/kami988/go-1.18-sample/1.18/11-workspace/def";
+
+service SpotSharedQueryService {
+  rpc Get(Request)
+      returns (Response) {}
+}
+
+message Request { string eventUUID = 1; }
+
+message Response {
+  string reservedSpotUUID = 1;
+}

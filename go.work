@@ -1,0 +1,7 @@
+go 1.18
+
+use (
+	.
+	1.18/11-workspace/api
+	1.18/11-workspace/def
+)
