@@ -43,6 +43,6 @@ func main() {
 	fmt.Println("Keys", maps.Keys(m)) // 順不同
 }
 
-// slices, maps package は1.18で標準packageとして搭載確定！
+// slices, maps package は1.19で標準packageとして搭載予定
 // https://github.com/golang/go/issues/45955
 // https://github.com/golang/go/issues/47649

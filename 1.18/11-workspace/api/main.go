@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/kami988/go-1.18-sample/1.18/11-proto/def"
+	"github.com/kami988/go-1.18-sample/1.18/11-workspace/def"
 )
 
 func main() {
